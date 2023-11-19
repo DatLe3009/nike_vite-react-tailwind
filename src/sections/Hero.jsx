@@ -6,7 +6,7 @@ import { Button, ShoeCard } from '../components';
 import { useState } from 'react';
 
 const Hero = () => {
-    const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
+    const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
     return (
         <section
             id="home"

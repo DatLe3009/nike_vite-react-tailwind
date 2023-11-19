@@ -1,6 +1,6 @@
-import { copyrightSign } from "../assets/icons"
-import { footerLogo } from "../assets/images"
-import { footerLinks, socialMedia } from "../constants"
+import { copyrightSign } from "../assets/icons";
+import { footerLogo } from "../assets/images";
+import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
     return (
@@ -13,6 +13,7 @@ const Footer = () => {
                             alt="Logo"
                             width={150}
                             height={46}
+                            className='m-0'
                         />
                     </a>
                     <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">Get shoes ready for the new term at your nearest Nike store. Find Your perfect Size In Store. Get Rewards</p>
