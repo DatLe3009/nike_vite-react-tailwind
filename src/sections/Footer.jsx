@@ -10,6 +10,7 @@ const Footer = () => {
                     <a href="/">
                         <img
                             src={footerLogo}
+                            alt="Logo"
                             width={150}
                             height={46}
                         />
@@ -37,7 +38,7 @@ const Footer = () => {
                                 {section.links.map((link) => (
                                     <li className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
                                         key={link.name}>
-                                        <a>{link.name}</a>
+                                        <a href={link.link}>{link.name}</a>
                                     </li>
                                 ))}
                             </ul>
